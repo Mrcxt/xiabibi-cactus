@@ -40,7 +40,7 @@
 1.  下载主题文件:
 
     ```git
-    $ git clone https://github.com/Mrcxt/xiabibi-cactus.git themes/xiabibi-cactus
+    $ git clone https://github.com/Mrcxt/xiabibi-cactus.git
     ```
 
 2.  将主题文件放入`themes`文件夹中
