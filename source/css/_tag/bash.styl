@@ -1,0 +1,45 @@
+.highlight.bash
+    box-shadow: 0px 3px 20px 0.5px rgba(0,0,0,0.19) !important;
+    figcaption
+        position: relative;
+        height:36px;
+        background-color: #d6d7d8;
+        margin: -10px -15px;
+        span
+            position absolute;
+            top: 18px;
+            left: 3em;
+            width: 1em;
+            height 1em;
+            margin-top: -0.5em;
+            border-radius: 50%;
+            background-color: #fc615d;
+            cursor: pointer;
+            text-indent:-9999px;
+            
+            &:before
+                content: "";
+                position absolute;
+                top: 0;
+                left: -1.5em;
+                width: 1em;
+                height 1em;
+                border-radius: 50%;
+                background-color: #fdbc40;
+                cursor: pointer;
+            &:after
+                content: "";
+                position absolute;
+                top: 0;
+                right: -1.5em;
+                width: 1em;
+                height 1em;
+                border-radius: 50%;
+                background-color: #34c84a;
+                cursor: pointer;
+
+.highlight.bash .code:after
+    color: #999;
+    padding: 0 10px;
+    line-height: 36px;
+    height: 36px;

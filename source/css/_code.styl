@@ -1,0 +1,84 @@
+pre
+  overflow-x: auto
+  padding: 10px 15px
+  padding-bottom: 0
+  border: 1px dotted $color-border
+  border-radius: 4px
+  font-size: 13px
+  font-family: $font-family-mono
+  line-height: 22px
+  -webkit-border-radius: 4px
+
+  code
+    display: block
+    padding: 0
+    border: none
+
+// 代码高亮css在 "_highlight/avue.styl" 中控制
+
+code
+  // padding: 0 5px
+  // border: 1px dotted $color-border
+  // border-radius: 2px
+  // -webkit-border-radius: 2px
+  font-size: 0.8em;
+  background-color: #f8f8f8;
+  font-family: 'Roboto Mono', Monaco, courier, monospace;
+  margin: 0 2px;
+  padding: 3px 5px;
+  color: #e96900;
+  border-radius: 2px;
+  white-space: inherit;
+
+.content>figure.highlight
+  box-shadow: 0 1px 2px rgba(0,0,0,0.125);
+
+.highlight
+  position: relative;
+  overflow-x: auto
+  margin: 1rem 0
+  padding: 10px 15px
+  border-radius: 4px
+  background-color: #f8f8f8;
+  // background: $color-background-code
+  font-family: $font-family-mono
+  // color: $color-accent-3
+  -webkit-border-radius: 4px
+  line-height: 1.1em;
+
+  figcaption
+    margin: -5px 0 5px
+    color: $color-meta-code
+    font-size: .9em
+    zoom: 1
+
+    a
+      float: right
+      color: $color-meta-code
+      font-style: italic
+      font-size: .8em
+
+      underline(10px, $color-link)
+
+    a:hover
+      color: lighten($color-meta-code, 20%)
+
+    &:before, content: ""
+      display: table
+
+    &:after
+      clear: both
+
+  pre
+    padding: 0
+    border: none
+    background: none
+
+  table
+    width: auto
+
+  td.gutter
+    text-align: right
+
+  .line
+    height: 22px

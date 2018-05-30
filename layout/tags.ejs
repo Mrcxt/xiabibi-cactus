@@ -1,0 +1,5 @@
+<% if (site.tags && site.tags.length) { %>
+    <div class="article-tags">
+        <%- list_tags(site.tags, { show_count: false, style: 'link' }) %>
+    </div>
+<% } %>
